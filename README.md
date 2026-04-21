@@ -428,7 +428,6 @@ JOIN
     
     
 
-
 -- 1. RegistrarSiembra: Registra una nueva siembra validando la compatibilidad del cultivo con las condiciones de la parcela y finca (temperatura, tipo de suelo).    
 
 DELIMITER //
@@ -481,8 +480,6 @@ END //
 
 DELIMITER ;
 
-
-CALL RegistrarSiembra(101, 1, 4, '2024-04-21', 25.5, 500.00);
 
 
 
